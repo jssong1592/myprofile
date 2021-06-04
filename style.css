@@ -1,0 +1,179 @@
+html * {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #EEEEEE
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.font_ivory {
+  color: #EEEEEE
+}
+
+.frame_gray {
+  background-color: #707070;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  height: 2rem;
+  min-height: 1.5rem;
+  width: 100%;
+  z-index: 1;
+  font-weight: bold;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  width: 24.5%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+main {
+  position: relative;
+  top: -30px;
+}
+
+.background {
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-image: url("./images/profilepic.jpg")
+}
+
+.background:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7)
+}
+
+.background * {
+  position: relative;
+  color: white;
+}
+
+.background h1 {
+  top: 140px;
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: 'Squada One', cursive;
+  letter-spacing: 0.5rem;
+}
+
+.background p {
+  top: 140px;
+  text-align: center;
+  font-style: italic;
+}
+
+section {
+  text-align: center;
+  position: relative;
+  height: 60vh;
+  min-height: 100px;
+  top : -30px;
+  content:"";
+  background-color: #EEEEEE
+}
+
+.col {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+  margin: 40px 10px 0 10px;
+  font-size: 2rem;
+}
+
+.col img {
+  height: 150px;
+  width: 150px;
+  padding: 50px;
+}
+
+.aboutme img {
+  position: relative;
+  top: 2rem;
+  height: 300px;
+  width: 300px;
+  padding: 0;
+}
+
+.aboutme p {
+  text-align: left;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.introduction {
+  margin: 0;
+  padding-left: 1rem;
+  padding-bottom: 3rem;
+}
+
+td.type {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+td.content {
+  padding-left: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+
+.likes img {
+  margin: 50px 0;
+  padding: 0;
+}
+
+.likes p, .wishes p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+}
+
+footer p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+footer p.contact {
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+
+footer p.mail {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
